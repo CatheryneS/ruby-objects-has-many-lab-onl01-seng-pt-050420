@@ -23,6 +23,6 @@ class Artist
   def self.song_count
     artists = []
     artists << @name
-    artists.count
+    artists.size
   end
 end
