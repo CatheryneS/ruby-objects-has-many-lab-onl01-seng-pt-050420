@@ -15,10 +15,11 @@ class Artist
     Song.all
   end
   
-  def add_song_by_name(song)
-    
-  end 
-  
+  def add_song_by_name(name, genre)
+    song = Song.new(name, genre)
+    add_song(song)
+  end
+
   def self.song_count
     
   end
