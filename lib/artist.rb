@@ -1,3 +1,4 @@
+require 'set'
 class Artist 
   attr_accessor :name
   
