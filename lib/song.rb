@@ -17,8 +17,6 @@ class Song
   end
   
   def artist_name
-    if self.artist.name == @name
-      return name
-    end
+    
   end
 end
