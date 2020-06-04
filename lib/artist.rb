@@ -1,6 +1,7 @@
-require 'set'
 class Artist 
   attr_accessor :name
+  
+  @@artists = []
   
   def initialize(name)
     @name = name
@@ -22,6 +23,7 @@ class Artist
   end
 
   def self.song_count
-    
+    @@artist << @name
+    @@artist.size
   end
 end
