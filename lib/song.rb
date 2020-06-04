@@ -18,6 +18,6 @@ class Song
   
   def artist_name
     self.artist
-    self.name unless self.empty
+    self.name
   end
 end
