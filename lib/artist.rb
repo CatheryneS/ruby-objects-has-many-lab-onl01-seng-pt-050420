@@ -24,6 +24,6 @@ class Artist
 
   def self.song_count
     @@artists << @name
-    @@artist.size
+    @@artists.size
   end
 end
