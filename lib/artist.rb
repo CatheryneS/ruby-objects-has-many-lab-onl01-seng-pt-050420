@@ -24,6 +24,6 @@ class Artist
   end
 
   def self.song_count
-    @@artists.uniq.size
+    @@artists
   end
 end
