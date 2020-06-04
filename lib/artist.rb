@@ -10,7 +10,6 @@ class Artist
   end
   
   def add_song(song)
-    @song.push(song)
     song.artist = self
   end
   
