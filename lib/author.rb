@@ -6,7 +6,7 @@ class Author
   end
   
   def posts
-    
+    Post.all
   end
   
   def add_post(post_name)
