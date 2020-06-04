@@ -21,6 +21,8 @@ class Artist
   end
 
   def self.song_count
-    
+    artists = []
+    artists << @name
+    artists.count
   end
 end
